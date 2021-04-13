@@ -2,7 +2,7 @@
 Ester README tem por objetivo fornecer as informações necessárias para avaliação de candidatos para a linguagem Python.
 #  🏗   O que fazer?
 
-Você deve realizar um fork deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, NÃO é necessário criar um Pull Request para isso, nós iremos avaliar e retornar por email o resultado do seu teste.
+você deve realizar um fork deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, NÃO é necessário criar um Pull Request para isso, nós iremos avaliar e retornar por email o resultado do seu teste.
 
 # 🚨 Requisitos
 
