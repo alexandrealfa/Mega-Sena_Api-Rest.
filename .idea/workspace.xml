@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e839c43b-adce-4b89-87e4-1acbfad589d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/models/sorteio_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schema/user_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/user_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/teste_Ioasys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/teste_Ioasys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/configurations/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configurations/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/configurations/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configurations/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/configurations/migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configurations/migration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/configurations/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configurations/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/configurations/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configurations/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/__int__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schema/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schema/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1r7aPJBJWhvkrXXBBdev2a5CXKU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../medicall" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e839c43b-adce-4b89-87e4-1acbfad589d5" name="Default Changelist" comment="" />
+      <created>1618329557973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618329557973</updated>
+      <workItem from="1618329559623" duration="1766000" />
+      <workItem from="1618331354274" duration="1910000" />
+      <workItem from="1618333658718" duration="6779000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
