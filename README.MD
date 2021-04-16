@@ -3,14 +3,15 @@ Este README tem por objetivo fornecer as informações necessárias para utiliza
 jogos da Mega-Sena.
 
 #  🚨 Como Rodar o Aplicativo
-- O script "run" solicita algumas informações e a partir disso sobe a aplicação Flask de forma automática.
-- Rode o seguinte Comando:
+- Rode o seguinte Comando no seu terminal:
 
 ```sh
 createdb <database name>
 chmod +x run.sh
 sudo ./run.sh
 ```
+
+- Execute O script "run" : ele solicita algumas informações e a partir disso sobe a aplicação Flask de forma automática.
 
 
 #  🏗 Ferramentas do Projeto :
