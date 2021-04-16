@@ -19,7 +19,7 @@ class SignIn(Resource):
         if not found_user:
             return {"msg": "User Not Found!."}, HTTPStatus.NOT_FOUND
         access_token = create_access_token(identity=found_user.id, expires_delta=timedelta(days=7))
-        if not found_user.check_password_hash(kwargs.password):
+        if not found_user.check_password(kwargs.password):
             return {"msg": "invalid Password"}, HTTPStatus.UNAUTHORIZED
         serializer = user_schema.dump(found_user)
         return {"msg": "created", "data": serializer, "access_token": access_token}, HTTPStatus.OK
