@@ -150,7 +150,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
 ### Request
 `POST /game`
 
-    curl -i -H 'Authorization: Bearer <TOKEN>' -d 'sort_numbers=number_in_range_6_to_10' http://localhost:5000/user
+    curl -i -H 'Authorization: Bearer <TOKEN>' -d 'sort_numbers=number_in_range_6_to_10' http://localhost:5000/game
 
 ### Response
 
