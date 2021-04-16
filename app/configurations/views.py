@@ -12,4 +12,4 @@ def init_app(app: Flask):
     api.add_resource(User, "/user", endpoint="/user", methods=["POST", "GET", "PATCH", "DELETE"])
     api.add_resource(AllGamers, "/games", endpoint="/games", methods=["GET"])
     api.add_resource(Games, "/game", endpoint="/game", methods=["GET", "POST"])
-    api.add_resource(SignIn, "/sigin", endpoint="/sigin", methods=["POST"])
+    api.add_resource(SignIn, "/signin", endpoint="/signin", methods=["POST"])

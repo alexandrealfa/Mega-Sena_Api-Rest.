@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e839c43b-adce-4b89-87e4-1acbfad589d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/configurations/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configurations/authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/configurations/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configurations/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/configurations/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configurations/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/gamer_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/gamer_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schema/gamer_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schema/gamer_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schema/user_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schema/user_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/game_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/game_services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/message_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/message_services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/webscrapping_bot_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/webscrapping_bot_services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/access_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/access_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/7f185a968722_user_model_created.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/8b1098fe314a_create_gamer_model_created.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/d40f88a51bd3_adjust_gamemodel_for_new_params.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/ea968bcbf00d_add_unique_attribute_to_email_param.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/ebd10de5e37f_create_gamer_and_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/ebd10de5e37f_create_gamer_and_user_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +87,8 @@
       <workItem from="1618333658718" duration="16770000" />
       <workItem from="1618409044725" duration="19194000" />
       <workItem from="1618479327053" duration="1367000" />
-      <workItem from="1618480778482" duration="57497000" />
+      <workItem from="1618480778482" duration="57621000" />
+      <workItem from="1618549372000" duration="120000" />
     </task>
     <servers />
   </component>

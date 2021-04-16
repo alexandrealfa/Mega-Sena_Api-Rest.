@@ -71,9 +71,9 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
 
 ## Fazendo loggin com seu usuário
 ### Request
-`POST /sigin`
+`POST /signin`
 
-    curl -i -H 'Accept: application/json' -d 'email=user@email.com&password=user_password' http://localhost:5000/sigin
+    curl -i -H 'Accept: application/json' -d 'email=user@email.com&password=user_password' http://localhost:5000/signin
 
 ### Response
 
