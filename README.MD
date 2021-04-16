@@ -1,6 +1,17 @@
 # Descrição do Projeto:
-Ester README tem por objetivo fornecer as informações necessárias para utilização desta api Rest que simula o sistema de.
+Este README tem por objetivo fornecer as informações necessárias para utilização desta api Rest que simula o sistema de.
 jogos da Mega-Sena.
+
+#  🚨 Como Rodar o Aplicativo
+- O script "run" solicita algumas informações e a partir disso sobe a aplicação Flask de forma automática.
+- <b> Obs: informar o usuário root do postgres</b> 
+- Rode o seguinte Comando:
+
+```sh
+chmod +x run.sh
+sudo ./run.sh
+```
+
 
 
 #  🏗 Ferramentas do Projeto :
@@ -95,7 +106,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
     Content-Length: 2
     
 
-## Atualizando dados do seu usuário
+## Atualizando dados do seu usuário, precisa estar logado para conseguir atualizar
 ### Request
 `PATCH /user`
 
@@ -121,7 +132,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
     }
 
 
-## Deletar seu usuário
+## Deletar seu usuário, Atualizando dados do seu usuário, precisa estar logado para conseguir atualizar
 ### Request
 `DELETE /user`
 
@@ -136,7 +147,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
 
 ## GAME
 
-## Criar um novo jogo na mega sena , tendo no retorno a data de criação, o resultado do jogo feito, e os números que você acertou:
+## Criar um novo jogo na mega sena , tendo no retorno a data de criação, o resultado do jogo feito, e os números que você acertou, precisa estar logado para conseguir atualizar
 ### Request
 `POST /game`
 
@@ -164,7 +175,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
     }
 
 
-## listar todos os resultados de sorteios do usuário logado:
+## listar todos os resultados de sorteios do usuário logado, também é possivel paginar as rotas se desejar, para isso apenas passe o query params de /?page=valor_escolhido&per_page=valor_escolhido:
 ### Request
 `GET /game`
 
