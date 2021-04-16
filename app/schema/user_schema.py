@@ -1,4 +1,4 @@
-from . import ma, UserModel
+from . import UserModel, ma
 
 
 class UserSchema(ma.Schema):

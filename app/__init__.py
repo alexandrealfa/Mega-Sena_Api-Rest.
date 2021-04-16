@@ -1,12 +1,10 @@
-from flask import Flask
-from config import config_selector
 from os import getenv
 
-from app.configurations import database
-from app.configurations import migration
-from app.configurations import views
-from app.configurations import serializer
-from app.configurations import authentication
+from flask import Flask
+
+from app.configurations import (authentication, database, migration,
+                                serializer, views)
+from config import config_selector
 
 
 def create_app():

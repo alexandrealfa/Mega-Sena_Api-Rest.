@@ -1,10 +1,11 @@
 from time import sleep
 
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
-from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.options import Options
-from bs4 import BeautifulSoup
+from webdriver_manager.firefox import GeckoDriverManager
+
 
 class Bot:
     def __init__(self):

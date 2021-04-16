@@ -7,6 +7,7 @@ class Config:
 
 class DevelopmentConfig(Config):
     SQLALCHEMY_DATABASE_URI = getenv("FLASK_DB_URI")
+    JWT_SECRET_KEY=getenv("SECRET_KEY")
 
 
 class ProductionConfig(Config):
