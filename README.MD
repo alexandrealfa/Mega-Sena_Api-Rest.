@@ -1,6 +1,6 @@
 # Descrição do Projeto:
 Este README tem por objetivo fornecer as informações necessárias para utilização desta api Rest que simula o sistema de.
-jogos da Mega-Sena.
+jogos da Mega-Sena. 
 
 #  🚨 Como Rodar o Aplicativo
 - Rode o seguinte Comando no seu terminal:
@@ -12,7 +12,7 @@ sudo ./run.sh
 ```
 
 - Execute O script "run" : ele solicita algumas informações e a partir disso sobe a aplicação Flask de forma automática.
-
+- Existe um arquivo de configuração do Insomnica, caso deseje importar, para facilitar os testes.
 
 #  🏗 Ferramentas do Projeto :
  - Design pattern - MVC
