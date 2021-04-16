@@ -4,14 +4,13 @@ jogos da Mega-Sena.
 
 #  🚨 Como Rodar o Aplicativo
 - O script "run" solicita algumas informações e a partir disso sobe a aplicação Flask de forma automática.
-- <b> Obs: informar o usuário root do postgres</b> 
 - Rode o seguinte Comando:
 
 ```sh
+createdb <database name>
 chmod +x run.sh
 sudo ./run.sh
 ```
-
 
 
 #  🏗 Ferramentas do Projeto :
@@ -62,7 +61,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
 ### Request
 `POST /user`
 
-    curl -i -H 'Accept: application/json' -d 'name=username&phone=999999&email=youremail@gmail.com&profile_picture=http://link&password=your_password,' http://localhost:5000/user
+    curl -i -H 'Accept: application/json' -d 'name=username&phone=999999&email=user@gmail.com&profile_picture=http://link&password=your_password,' http://localhost:5000/user
 
 ### Response
 
@@ -84,7 +83,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
 ### Request
 `POST /signin`
 
-    curl -i -H 'Accept: application/json' -d 'email=user@email.com&password=user_password' http://localhost:5000/signin
+    curl -i -H 'Accept: application/json' -d 'email=user@email.com&password=your_password' http://localhost:5000/signin
 
 ### Response
 
@@ -93,7 +92,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
       "msg": "created",
       "data": {
         "phone": "66666666",
-        "email": "henriqueafcarvalho@gmail.com",
+        "email": "user@gmail.com",
         "profile_picture": "http://picsum.photo/200/200",
         "id": "1",
         "name": "new_name"
@@ -124,7 +123,7 @@ Api Restful com CRUD do usuário, Autenticação de rotas, e criação de Jogos 
         "msg": "success",
         "data": {
             "phone": "9999999",
-            "email": "henriqueafcarvalho@gmail.com",
+            "email": "user@gmail.com",
             "profile_picture": "http://picsum.photo/200/200",
             "id": "1",
             "name": "new_name"

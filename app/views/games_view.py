@@ -66,7 +66,7 @@ class Games(Resource):
         serializer = game_schema.dump(new_game)
 
 
-        return {"data": serializer}, HTTPStatus.OK
+        return {"data": serializer}, HTTPStatus.CREATED
 
    
 

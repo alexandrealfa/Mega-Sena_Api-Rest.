@@ -2,7 +2,7 @@
 
 python3 -m venv venv
 source venv/bin/activate
-pip install --require-hashs -r requirements.txt
+pip install --require-hashes -r requirements.txt
 echo "Digite o seu usuário do postgres =) : "
 read user_name 
 echo "Digite sua senha do usuário do postgres =) :"

@@ -48,7 +48,7 @@ class User(Resource):
         return {
             "msg": "success",
             "data": serializer
-        }, HTTPStatus.OK
+        }, HTTPStatus.CREATED
 
     @jwt_required()
     def patch(self):
